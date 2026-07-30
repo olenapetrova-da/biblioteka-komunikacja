@@ -1,0 +1,5 @@
+id_czytelnika;nazwisko;imie;email;telefon;data_waznosci_karty;status_konta
+CZ0001;Kowalska;Anna;anna.kowalska@example.com;500100100;2027-01-15;aktywne
+CZ0002;Nowak;Piotr;piotr.nowak@example.com;500100101;2026-11-30;aktywne
+CZ0003;Wiśniewska;Zofia;;500100102;2025-06-01;wygasle
+CZ0004;Wójcik;Marek;marek.wojcik@example.com;;2027-03-20;aktywne

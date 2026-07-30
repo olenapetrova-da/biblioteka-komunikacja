@@ -1,0 +1,4 @@
+id_subskrybenta;email;imie;status_zgody;data_zgody;data_wycofania;zrodlo_zgody;typ_zgody;id_czytelnika_mak;token_wypisu;data_ostatniej_wysylki;uwagi
+5f2e1a10-0001;anna.kowalska@example.com;Anna;aktywna;2026-02-10;;formularz_papierowy;oba;CZ0001;tok_a1b2c3d4;2026-07-01;
+5f2e1a10-0002;piotr.nowak@example.com;Piotr;brak_zgody;;;;oba;CZ0002;tok_e5f6g7h8;;import z MAK+, brak zgody
+5f2e1a10-0003;marek.wojcik@example.com;Marek;wycofana;2026-01-05;2026-05-20;formularz_online;nowosci;CZ0004;tok_i9j0k1l2;2026-04-15;

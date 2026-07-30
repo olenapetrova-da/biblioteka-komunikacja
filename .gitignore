@@ -1,0 +1,47 @@
+# ============================================================
+# RODO / dane osobowe — NIGDY nie commituj. Patrz SECURITY.md.
+# ============================================================
+
+# Wszystkie pliki CSV (eksporty z MAK+, dane czytelników) są domyślnie
+# zablokowane. Wyjątki dla zanonimizowanych danych testowych są jawnie
+# wypisane niżej.
+*.csv
+
+# Pliki oznaczone jako zawierające prawdziwe dane, niezależnie od
+# konwencji nazewniczej (myślnik lub podkreślnik przed sufiksem)
+*-real.*
+*-real
+*_real.*
+*_real
+*-export.*
+*-export
+*_export.*
+*_export
+
+# Foldery, w których mogłyby przypadkiem wylądować prawdziwe dane
+samples/real/
+samples/prawdziwe/
+
+# ============================================================
+# Wyjątki: zanonimizowane dane przykładowe w samples/
+# Dozwolone WYŁĄCZNIE pliki z jawnym sufiksem "-przyklad"
+# ============================================================
+!samples/*-przyklad.csv
+
+# ============================================================
+# Sekrety / konfiguracja lokalna
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# scriptId projektu Apps Script — zależny od konta/środowiska,
+# nie powinien być wspólny dla repozytorium
+.clasp.json
+
+# ============================================================
+# Node / narzędzia
+# ============================================================
+node_modules/
+.DS_Store
+Thumbs.db
